@@ -10,10 +10,10 @@ export default function ContainerCard({ status, items, isDragging, handleDraggin
     const id = +e.dataTransfer.getData('text')
     handleUpdateList(id, status)
     handleDragging(false)
-  }
+}
   
   return (
-    <div className={`border-2 w-60 h-[300px] rounded ${isDragging ? "border-dashed border-gray-400 bg-gray-300" : ""}`}
+    <div className={`border-2 sm:my-2 w-60 h-[300px] rounded ${isDragging ? "border-dashed border-gray-400 bg-gray-300" : ""}`}
       onDragOver={handleDragOver}
       onDrop={handleDrop}
     >

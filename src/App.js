@@ -5,7 +5,7 @@ function App() {
 
   return (
     <div >
-      <div className="bg-red-500 mx-[200px] p-10 h-screen">
+      <div className="bg-red-500 mx-[200px] sm:mx-[0px] p-10 sm:p-2 ">
         <div className="flex justify-center">
           <Title />
         </div>
